@@ -93,15 +93,15 @@ theme_override_constants/margin_bottom = 16
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/LeftPanel/VBoxContainer/Resources/MarginContainer"]
 layout_mode = 2
 
-[node name="StardustLabel" type="Label" parent="HBoxContainer/LeftPanel/VBoxContainer/Resources/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "Stardust: <no_value>"
-script = ExtResource("2_gv74v")
-
 [node name="ConsciousnessCoreLabel" type="Label" parent="HBoxContainer/LeftPanel/VBoxContainer/Resources/MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Consciousness cores: <no_value>"
 script = ExtResource("3_fum8m")
+
+[node name="StardustLabel" type="Label" parent="HBoxContainer/LeftPanel/VBoxContainer/Resources/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Stardust: <no_value>"
+script = ExtResource("2_gv74v")
 
 [node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
 layout_mode = 2

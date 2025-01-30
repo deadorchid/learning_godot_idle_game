@@ -34,5 +34,4 @@ func consume_consciousness_cores(quantity : int) -> Error:
 		
 	Game.ref.data.consciousness_core -= quantity
 	consciousness_core_consumed.emit(quantity)
-	
 	return Error.OK

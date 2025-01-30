@@ -1,0 +1,14 @@
+res://scenes/user_interface/user_interface.tscn
+res://scripts/handlers/handler_cc_upgrades.gd
+res://scenes/Game/game.tscn
+res://scripts/upgrades/cc_upgrades/ccu_01_stardust_generator.gd
+res://scenes/Game/game.gd
+res://scenes/views/consciousness_core/consciousness_core_view.tscn
+res://scenes/prototypes/upgrades/prototype_upgrades.tscn
+res://scenes/views/consciousness_core/consciousness_core_view.gd
+res://scenes/prototypes/upgrades/components/compo_upgrade.gd
+res://scripts/handlers/handler_consciousness_core.gd
+res://scenes/user_interface/consciousness_core_label.gd
+res://scripts/handlers/handler_stardust.gd
+res://scripts/data/data.gd
+res://scripts/handlers/handler_stardust_generator.gd

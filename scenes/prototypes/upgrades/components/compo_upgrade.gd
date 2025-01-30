@@ -10,10 +10,11 @@ extends Control
 @export var button : Button
 
 ## Upgrade to display
-var upgrade : Up01ClickerUpgrade
+var upgrade : Upgrade
 
 func _ready() -> void:
-	upgrade = Up01ClickerUpgrade.new()
+	if not upgrade:
+		upgrade = Up01ClickerUpgrade.new()
 	
 	update_label_title()
 	update_label_description()
@@ -24,7 +25,7 @@ func _ready() -> void:
 	
 	upgrade.leveled_up.connect(update_label_title)
 	upgrade.leveled_up.connect(update_label_description)
-	#upgrade.leveled_up.connect(update_button)
+	upgrade.leveled_up.connect(update_button)
 
 	
 ## Updates the title of the upgrade
